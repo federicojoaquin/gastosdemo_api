@@ -75,6 +75,7 @@ const deleteGastos = async (req, res) => {
 const putGastos = async (req, res) => {
     const { gas_descripcion, gas_monto, gas_fecha, gas_tipo, gas_frec } = req.body;
     const id = req.params.id; 
+    console.log(req.body)
     
     const client = new Client(databaseClient);
   
