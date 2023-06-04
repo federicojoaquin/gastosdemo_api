@@ -3,7 +3,8 @@
     "builds": [
         {
             "src": "./Index.js", 
-            "use": "@vercel/node"
+            "use": "@vercel/node",
+            "s-maxage": 0
         }
     ], 
     "routes": [
