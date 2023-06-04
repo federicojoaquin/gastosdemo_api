@@ -2,6 +2,9 @@
   "name": "backend-gastos-demo",
   "version": "1.0.0",
   "main": "Index.js",
+  "engines": {
+    "node": "18.13.0"
+  },
   "author": "Federico Garcia",
   "license": "MIT",
   "private": false,
