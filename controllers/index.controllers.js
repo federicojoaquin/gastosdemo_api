@@ -1,7 +1,6 @@
 const { Client } = require('pg'); 
 require('dotenv').config(); 
 
-// Conexión a base de datos (ir cambiando cada día en railway)
 const databaseClient = {
   user: process.env.PGUSER, 
   host: process.env.PGHOST, 
